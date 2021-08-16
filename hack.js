@@ -1,0 +1,1 @@
+var event=new KeyboardEvent("keydown",{key:"a",ctrlKey:!0});document.dispatchEvent(event),document.cookie="country=ID;expires=Sat, 31 Dec 2022 12:00:00 UTC;path=/";var a=document.querySelector("#app").__vue__;setInterval(function(){document.dispatchEvent(event),a.counter+=24,a.accumulator=Math.floor(6*Math.random()+795),a.open=false},1e3);
